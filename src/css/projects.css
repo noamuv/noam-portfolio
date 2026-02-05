@@ -24,18 +24,33 @@
 
 .projects__wrapper a {
     display: grid;
-    grid-template-columns: repeat(9, minmax(0, 1fr));
+    grid-template-columns: repeat(5, minmax(0, 1fr));
     color: white;
-    grid-column: 3 / span 8;
 }
 
-.projects__wrapper div {
+.projects__name {
+    grid-column: span 3;
+}
+
+.projects__date {
+    grid-column: span 1;
     display: flex;
-    align-items: center;
-    grid-column: span 4;
+    justify-content: center;
 }
 
-.projects__wrapper div:last-child {
+.projects__code {
+    grid-column: span 1;
+    display: flex;
     justify-content: flex-end;
-    grid-column: 9 / span 1;
 }
+
+@media only screen and (max-width: 660px) {
+    .projects__date {
+        display: none;
+    }
+
+    .projects__code {
+        grid-column: span 2;
+    }
+}
+

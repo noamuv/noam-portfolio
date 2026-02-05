@@ -6,7 +6,6 @@ export default function Navbar() {
     <>
         <div className="title">
             <CustomLink to="/"><DecryptedText text="Noam Ureta-Vidal" speed={30} animateOn="view" sequential="true" maxIterations={10}/></CustomLink>
-                        
         </div>    
         <nav className="nav">
             <ul>

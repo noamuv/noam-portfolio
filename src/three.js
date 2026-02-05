@@ -10,6 +10,7 @@ import colors from 'nice-color-palettes';
 
 //Pick a random colour palette
 //let index = Math.floor(Math.random() * colors.length);
+//64 is a good colour
 let index = 26;
 let palette = colors[index];
 

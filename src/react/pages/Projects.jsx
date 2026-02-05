@@ -17,13 +17,13 @@ function File({href, name, date, code}) {
     return (
         <li>
             <a href={href}>
-                <div>
+                <div className="projects__name">
                     <h2>{name}</h2>
                 </div>
-                <div>
+                <div className="projects__date">
                     <p>{date}</p>
                 </div>
-                <div>
+                <div className="projects__code">
                     <p>{code}</p>
                 </div>
             </a>
