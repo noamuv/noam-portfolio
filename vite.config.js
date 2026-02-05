@@ -5,5 +5,5 @@ import glsl from 'vite-plugin-glsl'
 // https://vite.dev/config/
 export default defineConfig({
   plugins: [react(), glsl()],
-  base: "/portfolio-website-1",
+  base: "/noam-portfolio",
 })
