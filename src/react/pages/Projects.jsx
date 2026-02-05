@@ -3,7 +3,7 @@ export default function Projects() {
         <div className="container">
             <div className="projects__wrapper">
                 <ul>
-                    <File href="https://vinyl-music-player-dqevtysch-noamuvs-projects.vercel.app/" name="3D Vinyl Music Player" date="Ongoing" code="R3F, GSAP"/>
+                    <File href="https://vinyl-music-player-ten.vercel.app/" name="3D Vinyl Music Player" date="Ongoing" code="R3F, GSAP"/>
                     <File href="https://github.com/noamuv/AI-News-Summariser" name="AI News Summariser" date="May 2025" code="Java"/>
                     <File href="https://github.com/noamuv/Second-Hand-Car-Store-App" name="Second Hand Car Store App" date="Dec 2024" code="C Programming"/>
                     <File href="https://noamuv.github.io/sushi_website_tutorial/" name="Sushi Website" date="Nov 2024" code="HTML/CSS"/>
