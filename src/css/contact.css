@@ -6,6 +6,7 @@
 .contact__wrapper a{
     color: white;
     font-size: 20px;
+    white-space: nowrap;
 }
 
 .contact__wrapper a:hover{
@@ -17,6 +18,13 @@
 @media only screen and (max-width: 520px) {
     .contact__wrapper {
         margin-top: 340px;
+    }
+}
+
+@media only screen and (max-width: 402px) {
+    .contact__wrapper {
+         margin-top: 260px;
+         grid-column: 8 / span 4;
     }
 }
 

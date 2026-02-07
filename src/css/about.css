@@ -8,7 +8,7 @@
     color: white;
     line-height: 2rem;
     letter-spacing: -.126px;
-    text-align: center;
+    text-align: justify;
 }
 
 @media only screen and (max-width: 1140px) {
@@ -34,4 +34,15 @@
         margin-top: -20px;
     }
 }
+
+@media only screen and (max-width: 402px) {
+    .about__wrapper {
+        margin-top: -20px;
+    }
+
+    .about__wrapper p {
+        font-size: 15px;
+    }
+}
+
 
