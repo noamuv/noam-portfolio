@@ -63,3 +63,9 @@
         display: none;
     }
 }
+
+@media only screen and (max-height: 640px) {
+    .projects__wrapper {
+        margin-top: -50px;
+    }
+}

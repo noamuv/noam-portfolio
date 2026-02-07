@@ -1,6 +1,6 @@
 .contact__wrapper {
     margin-top: 260px;
-    grid-column: 10 / span 4;
+    grid-column: 11;
 }
 
 .contact__wrapper a{
@@ -15,6 +15,12 @@
     transition: 0.8s;
 }
 
+@media only screen and (max-width: 920px) {
+    .contact__wrapper {
+        grid-column: 10;
+    }
+}
+
 @media only screen and (max-width: 520px) {
     .contact__wrapper {
         margin-top: 340px;
@@ -25,6 +31,12 @@
     .contact__wrapper {
          margin-top: 260px;
          grid-column: 8 / span 4;
+    }
+}
+
+@media only screen and (max-height: 700px) {
+    .contact__wrapper {
+        margin-top: 200px;
     }
 }
 

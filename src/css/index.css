@@ -28,6 +28,7 @@
 html,
 body {
   max-width: 2560px;
+  min-height: 620px;
   margin: 0 auto;
   padding: 0;
   overflow: hidden;
@@ -95,6 +96,12 @@ body {
 
     .container {
       margin-top: 150px;
+    }
+}
+
+@media only screen and (max-height: 640px) {
+    .container {
+        margin-top: 200px;
     }
 }
 
