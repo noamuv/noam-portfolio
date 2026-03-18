@@ -1,7 +1,7 @@
 import * as T from 'three';
 // eslint-disable-next-line import/no-unresolved
 //import { OrbitControls } from 'three/addons/controls/OrbitControls.js';
-import { FullScreenQuad } from 'three/examples/jsm/postprocessing/Pass.js';
+//import { FullScreenQuad } from 'three/examples/jsm/postprocessing/Pass.js';
 import fragment from './shaders/fragment.glsl';
 import vertex from './shaders/vertex.glsl';
 //import * as gui from 'lil-gui';
@@ -68,7 +68,7 @@ export default class Three {
   }
 
   setGeometry() {
-    this.planeGeometry = new T.PlaneGeometry(1.5, 1.5, 300, 300);
+    this.planeGeometry = new T.PlaneGeometry(4, 2, 300, 300);
     this.planeMaterial = new T.ShaderMaterial({
       side: T.DoubleSide,
       //wireframe: true,
@@ -105,7 +105,7 @@ export default class Three {
     device.width = window.innerWidth;
     device.height = window.innerHeight;
 
-    //this.camera.aspect = device.width / device.height;
+    this.camera.aspect = device.width / device.height;
     this.camera.updateProjectionMatrix();
 
     this.renderer.setSize(device.width, device.height);
