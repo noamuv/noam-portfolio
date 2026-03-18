@@ -27,10 +27,16 @@
     }
 }
 
-@media only screen and (max-width: 402px) {
+@media only screen and (max-width: 502px) {
     .contact__wrapper {
          margin-top: 260px;
          grid-column: 8 / span 4;
+    }
+}
+
+@media only screen and (max-width: 360px) {
+    .contact__wrapper {
+        grid-column: 7 / span 4;
     }
 }
 

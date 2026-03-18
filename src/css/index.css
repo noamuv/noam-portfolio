@@ -77,6 +77,12 @@ body {
   }
 }
 
+@media only screen and (max-height: 640px) {
+    .container {
+        margin-top: 200px;
+    }
+}
+
 @media only screen and (max-width: 520px) {
     .title {
         font-size: 50px;
@@ -87,11 +93,11 @@ body {
     }
 }
 
-@media only screen and (max-width: 402px) {
+@media only screen and (max-width: 420px) {
     .title {
         font-size: 40px;
         padding: 16px 16px 16px 16px;
-        margin: 0 auto;
+        margin-left: 16px;
     }
 
     .container {
@@ -99,9 +105,9 @@ body {
     }
 }
 
-@media only screen and (max-height: 640px) {
-    .container {
-        margin-top: 200px;
+@media only screen and (max-width: 360px) {
+    .title {
+        font-size: 32px;
     }
 }
 
