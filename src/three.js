@@ -11,7 +11,8 @@ import colors from 'nice-color-palettes';
 //Pick a random colour palette
 //let index = Math.floor(Math.random() * colors.length);
 //64 is a good colour
-let index = 26;
+//26 
+let index = 64;
 let palette = colors[index];
 
 //Convert HEX code to ThreeJS colour
