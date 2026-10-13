@@ -2,6 +2,7 @@
 @import url(about.css);
 @import url(contact.css);
 @import url(projects.css);
+@import url(home.css);
 
 
 :root {
@@ -26,7 +27,7 @@
 }
 
 html,
-body {
+body, #root {
   max-width: 2560px;
   min-height: 620px;
   margin: 0 auto;
