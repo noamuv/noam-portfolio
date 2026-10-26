@@ -3,7 +3,7 @@ export default function Projects() {
         <div className="container">
             <div className="projects__wrapper">
                 <ul>
-                    <File href="https://madeenaibahkros.vercel.app/" name="Photography Portfolio" date="Ongoing" code="React, Motion"/>
+                    <File href="https://madeenasidonia.vercel.app/" name="Photography Portfolio" date="Ongoing" code="React, Motion"/>
                     <File href="https://noamuv.github.io/helix-gallery/" name="Helix Gallery" date="Aug 2026" code="R3F, Motion"/>
                     <File href="https://vinyl-music-player-ten.vercel.app/" name="3D Vinyl Music Player" date="Feb 2026" code="R3F, GSAP"/>
                     <File href="https://github.com/noamuv/AI-News-Summariser" name="AI News Summariser" date="May 2025" code="Java"/>
